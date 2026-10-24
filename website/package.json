@@ -33,6 +33,7 @@
     "@nyxapi/devtools": "workspace:*",
     "@nyxapi/react": "workspace:*",
     "@supabase/supabase-js": "^2.118.0",
+    "@vercel/analytics": "^2.0.1",
     "codemirror": "^6.0.2",
     "next": "16.4.2",
     "react": "19.3.1",

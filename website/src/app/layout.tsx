@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Providers } from "@/components/Providers";
 import { SITE_URL } from "@/site";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL ?? "http://localhost:3000"),
@@ -49,6 +50,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <Header />
           <main id="main">{children}</main>
           <Footer />
+          <Analytics />
         </Providers>
       </body>
     </html>
